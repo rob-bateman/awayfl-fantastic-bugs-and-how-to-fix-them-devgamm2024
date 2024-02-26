@@ -25,7 +25,7 @@
 </section>
 <section data-watermark="true" data-background="assets/talk_background.png" data-autoslide="500" data-auto-animate>
     <div class="r-hstack">
-        <img src="assets/awayfl-logo_lgitarge_black.png" alt="AwayFL" width="300" height="300">
+        <img src="assets/awayfl-logo_large_black.png" alt="AwayFL" width="300" height="300">
         <div class="r-vstack">
             <div>
                 <p style="padding: 0px 20px 0px 20px; text-align: left;"  class="fragment fade-in" data-autoslide="100">🚀 Open Source</p>
