@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+}
+.left-watermark {
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+  z-index: 10;
+}
+
+.left-watermark img {
+  width: 150px;
+  height: 150px;
+}
+
+.right-watermark {
+  position: absolute;
+  right: 25px;
+  bottom: 5px;
+  z-index: 10;
+}
+
+.right-watermark img {
+  width: 180px;
+  height: 180px;
+}
+
+@font-face {
+  font-family: Animales Fantastic;
+  src: url(../assets/AnimalesFantastic-lGly.ttf);
+}
+
+.reveal table th, .reveal table td {
+  text-align: center !important;
+  padding: 0.2em 0.5em 0.2em 0.5em !important;
+  border-bottom: 1px solid !important;
+}
+
+h3 {
+  font-family: Ringbearer !important;
+  font-weight: normal !important;
+  text-transform: none !important;
+  text-shadow: rgb(0, 153, 255) 1px 0 10px !important;
+}
+
+h2 {
+  font-family: Ringbearer !important;
+  font-weight: normal !important;
+  text-transform: none !important;
+  text-shadow: rgb(0, 153, 255) 1px 0 10px !important;
+}
+
+h1 {
+  font-family: Ringbearer !important;
+  font-weight: normal !important;
+  font-size: 140px !important;
+  text-transform: none !important;
+  text-shadow: rgb(0, 153, 255) 1px 0 10px !important;
+}
+
+.reveal img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+.reveal iframe {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+.bulletstyle {
+  position: absolute;
+  left: 200px;
+}
+
+.bulletstyle li {
+  padding: 10px 0px 30px 20px;
+}
+
+.gridstyle div p {
+  padding: 0px 20px 0px 20px;
+}
+
+.paragraphstyle li {
+  text-shadow: #FC0 1px 0 10px !important;
+}
