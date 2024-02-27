@@ -18,12 +18,22 @@
 		<Notes>This is an example of slide notes</Notes>
 </section>
 //-->
+<section data-watermark="true" data-background="assets/talk_background.png" data-autoslide="500">
+    <p style="margin: 0px;">&nbsp;</p>
+    <div class="r-stack">
+        <img src="assets/when-your-program-runs-without-any-bugs.gif" class="fragment fade-in" data-autoslide="0" alt="When Your Program Runs Without Any Bugs" width="800" height="800">
+        
+    </div>
+    <div class="r-stretch"></div>
+</section>
+
 <section data-watermark="true" data-background="assets/talk_background.png" data-autoslide="500" data-auto-animate>
     <div class="r-hstack">
         <img src="assets/awayfl-logo_large_black.png" class="fragment fade-in" alt="AwayFL" width="300" height="300">
     </div>
 </section>
-<section data-watermark="true" data-background="assets/talk_background.png" data-autoslide="500" data-auto-animate>
+
+<section data-watermark="true" data-background="assets/talk_background.png" data-autoslide="1000" data-auto-animate>
     <div class="r-hstack">
         <img src="assets/awayfl-logo_large_black.png" alt="AwayFL" width="300" height="300">
         <div class="r-vstack">
@@ -48,125 +58,20 @@
     </div>
 </section>
 
-<section data-watermark="true" data-background="assets/talk_background.png">
-    <div class="r-stack">
-        <img src="assets/book.jpeg" alt="3D in Flash" width="480" height="604">
-    </div>
-</section>
-
-<section data-watermark="true" data-background="assets/talk_background.png">
-    <div class="r-stack">
-        <img src="assets/ReleaseBanner4_1.jpg" alt="3D in Flash" width="740" height="400">
-    </div>
-</section>
-
-
-<!--////////////////////////// FLASH IS DEAD //////////////////////////-->
-<section data-background-iframe="assets/demos/flashisdead.html">
-</section>
-
-<!--
-
-
-<section data-watermark="true" data-background="assets/talk_background.png">
-    <div class="r-stack">
-        <img src="assets/courage.jpeg" alt="Courage" width="750" height="1000">
+<section data-watermark="true" data-background="assets/talk_background.png" data-autoslide="500">
+    
+    <div class="r-vstack fragment fade-in" data-autoslide="0">
+        <h2>Better Questions</h2>
+        <img src="assets/deep-thought-h2g2.jpeg" alt="Deep Thought" width="800" height="1000">
     </div>
     <div class="r-stretch">
-    </div>
-</section>
-//-->
-<section data-background="assets/gandalf-lofi.gif">
-    <h2 class="fragment fade-in" style="padding: 30px;">Survival Strategies</h2>
-    <ul class="bulletstyle">
-        <li style="list-style-type: '&#128077';" class="fragment fade-in">Language technique and process</li>
-        <li style="list-style-type: '&#128078';"class="fragment fade-in">Platform / Framework knowledge</li>
-        <li style="list-style-type: '&#128073';"class="fragment fade-in">Reuse, remix, refine</li>
-    </ul>
-    <audio src="assets/gandalf-lofi.m4a" data-autoplay></audio>
-    <div class="r-stretch">
-    </div>
-</section>
-
-<section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex-in fade-out">
-    <div class="r-stack">
-        <img src="assets/away3d_logo_black_large.png" alt="Away3D" width="300" height="300">
-    </div>
-</section>
-
-<section data-watermark="true" data-background="assets/talk_background.png" data-transition="fade-in convex-out">
-    <div class="r-stack">
-        <img src="assets/away3d_logo_black_large.png" alt="Away3D" width="300" height="300">
-        <p style="font-size: 60px;">Typescript</p>
-    </div>
-</section>
-
-<section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex">
-    <div class="r-stack">
-        <img src="assets/awayjslogo-5276.png" alt="AwayJS" width="300" height="300">
-    </div>
-</section>
-
-<!--
-<section data-background="assets/gandalf-lofi.gif">
-    <div class="fragment fade-in" style="transition: all 4s ease;">
-        <h2>Gandalfing time</h2>
-        <div class="r-stack">
-            <img src="assets/what-was-gandalf-smoking-the-lord-of-the-rings.jpg" alt="Gandalf" width="2000" height="1000">
-            <div class="r-hstack">
-                <img src="assets/money-falling.png" alt="Money Falling" width="300" height="1000" style="position: absolute; left: 20px;">
-                <div class="r-stretch"></div>
-                <img src="assets/open-source.png" alt="Open Source" width="200" height="1000" style="position: absolute; right: 40px;">
-            </div>
-        </div>
-    </div>
-    <div class="r-stack">
-        <h2 class="fragment fade-in-then-out" style="padding: 30px;">b2b > dev</h2>
-        <h2 class="fragment fade-in-then-out" style="padding: 30px;">support > patreon</h2>
-    </div>
-    <audio src="assets/gandalf-lofi.m4a" data-autoplay></audio>
-    <div class="r-stretch">
-    </div>
-</section>
-//-->
-
-<section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex">
-    <h2>Icycle</h2>
-    <div class="r-stack">
-        <img src="assets/Icycle1_Wireframe.png" alt="Icycle" width="800" height="1000">
-    </div>
-    <div class="r-stretch">
-    </div>
-</section>
-
-<section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex">
-    <h2>Sunflower Learning</h2>
-    <div class="r-stack">
-        <img src="assets/Sunflower_Learning.png" alt="Icycle" width="700" height="1000">
-    </div>
-    <div class="r-stretch">
-    </div>
-</section>
-
-<section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex">
-    <h2>Maths-Whizz</h2>
-    <div class="r-stack">
-        <img src="assets/Maths-Whizz.png" alt="Icycle" width="700" height="1000">
-    </div>
-    <div class="r-stretch">
-    </div>
-</section>
-
-<section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex">
-    <div class="r-stack">
-        <img src="assets/awayfl-logo_large_black.png" alt="AwayFL" width="300" height="300">
     </div>
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png">
-    <h2>Poki</h2>
+    <h2>Playback Bug</h2>
     <div class="r-stack">
-        <iframe data-src="assets/demos/escaping_the_prison.html" width="750" height="519"></iframe>
+        <iframe data-src="http://localhost:80/escaping_the_prison.html" width="750" height="519"></iframe>
     </div>
     <div class="r-stretch">
     </div>
