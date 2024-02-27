@@ -58,6 +58,20 @@
     </div>
 </section>
 
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <h2 style="padding: 30px;">Bug Types</h2>
+    <ul class="bulletstyle">
+        <li style="list-style-type: '&#129419';">Syntax Bug</li>
+        <li style="list-style-type: '&#128027';">Implementation Bug</li>
+        <li style="list-style-type: '&#129439';">Data Flow Bug</li>
+        <li style="list-style-type: '&#129440';">Deployment Bug</li>
+        <li style="list-style-type: '&#128009';">Memory Bug</li>
+    </ul>
+    <audio src="assets/gandalf-lofi.m4a" data-autoplay></audio>
+    <div class="r-stretch">
+    </div>
+</section>
+
 <section data-watermark="true" data-background="assets/talk_background.png" data-autoslide="500">
     
     <div class="r-vstack fragment fade-in" data-autoslide="0">
@@ -71,7 +85,7 @@
 <section data-watermark="true" data-background="assets/talk_background.png">
     <h2>Playback Bug</h2>
     <div class="r-stack">
-        <iframe data-src="http://localhost:80/escaping_the_prison.html" width="750" height="519"></iframe>
+        <iframe data-src="http://localhost/escaping_the_prison.html" width="750" height="519"></iframe>
     </div>
     <div class="r-stretch">
     </div>
@@ -156,38 +170,6 @@
     <h3 class="fragment">Interpreted vs Compiled</h3>
 </section>
 
-<section data-watermark="true" data-background="assets/talk_background.png" data-auto-animate>
-    <div>
-        <table width="100%">
-            <thead>
-                <tr>
-                    <th><h3>interpreted</h3></th>
-                    <th><h3 class="fragment" data-fragment-index="7">jit</h3></th>
-                    <th><h3>compiled</h3></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="fragment" data-fragment-index="1">Python</td>
-                    <td class="fragment" data-fragment-index="8">Java</td>
-                    <td class="fragment" data-fragment-index="4">C / C++</td>
-                </tr>
-                <tr>
-                    <td class="fragment" data-fragment-index="2">Lua</td>
-                    <td class="fragment" data-fragment-index="9">C#</td>
-                    <td class="fragment" data-fragment-index="5">Rust</td>
-                </tr>
-                <tr>
-                    <td class="fragment" data-fragment-index="3">AS2</td>
-                    <td class="fragment" data-fragment-index="10">AS3</td>
-                    <td class="fragment" data-fragment-index="6">Zig</td>
-                </tr>
-            </tbody>
-        </table>
-        <p style="margin:20px 0px 0px 80px;text-shadow: #FC0 1px 0 10px !important;" class="fragment" data-fragment-index="11">Javascript</p>
-    </div>
-</section>
-
 <section data-watermark="true" data-background="assets/talk_background.png">
     <div style="margin:0px 180px 0px 180px;">
         <p style="text-align: justify;">"Javascript should not be the last programming language. Think of the children!"</p>
@@ -263,4 +245,8 @@
     </div>
     <div class="r-stretch">
     </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <h2>Solving > Patching</h2>
 </section>
