@@ -89,6 +89,23 @@
 
 <!--////////////////////////// EXAMPLES //////////////////////////-->
 <section data-watermark="true" data-background="assets/talk_background.png">
+    <h2 style="padding: 10px; margin: 0px;">Stack Trace</h2>
+    <div class="r-stack">
+        <img src="assets/10.png" alt="Stack trace" width="800" height="800">
+    </div>
+    <div class="r-stretch">
+    </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <h2 style="padding: 10px; margin: 0px;">Testing</h2>
+    <div class="r-stack">
+        <img src="assets/StressTesting-Thanos.jpeg" alt="Tests" width="700" height="700">
+    </div>
+    <div class="r-stretch"></div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png">
     <h2 style="padding: 10px; margin: 0px;">Escaping the Prison</h2>
     <div class="r-stack">
         <iframe data-src="http://localhost/escaping_the_prison.html" width="750" height="519"></iframe>
@@ -130,7 +147,7 @@
     <div class="r-vstack">
         <h2 style="padding: 10px; margin: 0px;">Better Questions</h2>
             <img src="assets/deep-thought-h2g2.jpeg" alt="Deep Thought" width="800" height="400">
-            <p style="font-size: 30px; font-style: italic; width: 600px; margin: 0px">"Only when you know the question will you understand what the answer means."</p>
+            <p style="font-size: 30px; font-style: italic; width: 600px; margin: 0px">"Once you know what the question actually is, you'll know what the answer means"</p>
     </div>
     <div class="r-stretch">
     </div>
@@ -207,6 +224,20 @@
     </div>
 </section>
 //-->
+
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <h2 style="padding: 10px; margin: 0px;">Final Thoughts</h2>
+    <ul class="bulletstyle">
+        <li style="list-style-type: '&#128077';" class="fragment fade-in">Use Strong types</li>
+        <li style="list-style-type: '&#128076';" class="fragment fade-in">Have (some) automated tests</li>
+        <li style="list-style-type: '&#129305';" class="fragment fade-in">Reduce your test loop</li>
+        <li style="list-style-type: '&#129304';" class="fragment fade-in">Ask better questions</li>
+        <li style="list-style-type: '&#9996';" class="fragment fade-in">Don't get too hung up</li>
+        <li style="list-style-type: '&#129302';" class="fragment fade-in">Let the AI do it</li>
+    </ul>
+    <div class="r-stretch">
+    </div>
+</section>
 
 <section data-watermark="true" data-background="assets/talk_background.png">
     <h2>Solving > Patching</h2>
