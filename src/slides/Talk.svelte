@@ -29,7 +29,7 @@
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png" data-auto-animate>
-    <h2>Flash Emulator</h2>
+    <h2>Flash&nbsp;&nbsp;Emulator</h2>
     <p style="margin: 0px;">&nbsp;</p>
     <div class="r-hstack">
         <img src="assets/awayfl-logo_large_black.png" alt="AwayFL" width="300" height="300">
@@ -38,7 +38,7 @@
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png" data-autoslide="1000" data-auto-animate>
-    <h2>Flash Emulator</h2>
+    <h2>Flash&nbsp;&nbsp;Emulator</h2>
     <p style="margin: 0px;">&nbsp;</p>
     <div class="r-hstack">
         <img src="assets/awayfl-logo_large_black.png" alt="AwayFL" width="300" height="300">
