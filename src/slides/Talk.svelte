@@ -139,7 +139,15 @@
 <section data-watermark="true" data-background="assets/talk_background.png">
     <h2>Bloons</h2>
     <div class="r-stack">
-        <iframe data-src="http://localhost/bloonstd_sdk.html" width="700" height="525"></iframe>
+        <iframe data-src="http://localhost/assets/bloonstd_dec_v3/index.html" width="700" height="525"></iframe>
+    </div>
+    <div class="r-stretch">
+    </div>
+</section>
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <h2>Bloons</h2>
+    <div class="r-stack">
+        <iframe data-src="http://localhost/AS2Sound_Test.html" width="700" height="525"></iframe>
     </div>
     <div class="r-stretch">
     </div>
@@ -158,15 +166,31 @@
     </div>
 </section>
 
-<section data-watermark="true" data-background="assets/talk_background.png">
-    <h2>Bad Ice Cream</h2>
-    <div class="r-stack">
-        <iframe data-src="http://localhost/assets/bad-ice-cream/index.html" width="550" height="550"></iframe>
+<section data-watermark="true" data-background="assets/talk_background.png" data-auto-animate>
+    <h2>Rendering</h2>
+    <div class="r-vstack">
+            <p class="fragment fade-in">MouseEvent / KeyBoardEvent</p>
+            <p class="fragment fade-in" data-autoslide="50">↓</p>
+            <p class="fragment fade-in" data-autoslide="0">event.updateAfterEvent = true</p>
+            <p class="fragment fade-in" data-autoslide="50">↓</p>
+            <p class="fragment fade-in" data-autoslide="0">render()</p>
     </div>
     <div class="r-stretch">
     </div>
 </section>
 
+<section data-watermark="true" data-background="assets/talk_background.png" data-auto-animate>
+    <h2>Rendering</h2>
+    <div class="r-vstack">
+            <p>MouseEvent / KeyBoardEvent</p>
+            <p>↓</p>
+            <p>event.updateAfterEvent = true</p>
+            <p data-autoslide="50">↓</p>
+            <p>renderFlag = true</p>
+    </div>
+    <div class="r-stretch">
+    </div>
+</section>
 <!--////////////////////////// BUGS //////////////////////////-->
 <!--//
 <section data-background="assets/Bugs-life6.webp" data-background-opacity="0.5">
@@ -183,14 +207,6 @@
     </div>
 </section>
 //-->
-<section data-watermark="true" data-background="assets/talk_background.png">
-    <h2>Coolmath Games</h2>
-    <div class="r-stack">
-        <iframe data-src="http://localhost/jacksmith_sdk.html" width="700" height="525"></iframe>
-    </div>
-    <div class="r-stretch">
-    </div>
-</section>
 
 <section data-watermark="true" data-background="assets/talk_background.png">
     <h2>Solving > Patching</h2>
