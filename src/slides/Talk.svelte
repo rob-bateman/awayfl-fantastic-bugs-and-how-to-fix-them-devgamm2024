@@ -28,13 +28,18 @@
     <div class="r-stretch"></div>
 </section>
 
-<section data-watermark="true" data-background="assets/talk_background.png" data-autoslide="500" data-auto-animate>
+<section data-watermark="true" data-background="assets/talk_background.png" data-auto-animate>
+    <h2>Flash Emulator</h2>
+    <p style="margin: 0px;">&nbsp;</p>
     <div class="r-hstack">
-        <img src="assets/awayfl-logo_large_black.png" class="fragment fade-in" alt="AwayFL" width="300" height="300">
+        <img src="assets/awayfl-logo_large_black.png" alt="AwayFL" width="300" height="300">
     </div>
+    <div class="r-stretch"></div>
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png" data-autoslide="1000" data-auto-animate>
+    <h2>Flash Emulator</h2>
+    <p style="margin: 0px;">&nbsp;</p>
     <div class="r-hstack">
         <img src="assets/awayfl-logo_large_black.png" alt="AwayFL" width="300" height="300">
         <div class="r-vstack">
@@ -43,11 +48,9 @@
                 <p style="padding: 0px 20px 0px 20px; text-align: left;" class="fragment fade-in" data-autoslide="100">❤️ Apache 2 license</p>
                 <p style="padding: 0px 20px 0px 20px; text-align: left;" class="fragment fade-in" data-autoslide="0">♻️ Active Community</p>
             </div>
-
-            <div class="r-stretch">
         </div>
-        <div class="r-stretch">
     </div>
+    <div class="r-stretch"></div>
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png">
@@ -60,6 +63,16 @@
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png">
+    <div class="r-stack">
+        <iframe data-src="http://localhost/CM2wonderputt-NoSiteLock.html" width="750" height="650"></iframe>
+    </div>
+    <div class="r-stretch">
+    </div>
+</section>
+
+<!--
+
+<section data-watermark="true" data-background="assets/talk_background.png">
     <h2>Poki - Flipline Games</h2>
     <div class="r-stack">
         <iframe data-src="http://localhost/papa_freezeria_sdk.html" width="700" height="525"></iframe>
@@ -67,6 +80,7 @@
     <div class="r-stretch">
     </div>
 </section>
+-->
 
 <section data-background="assets/Bugs-life6.webp" data-background-opacity="0.5">
     <h2>Bugs</h2>
@@ -114,16 +128,26 @@
     </div>
 </section>
 
-<section data-background="assets/BBCp.gif" data-background-opacity="0.5">
-    <h2>Reduce Your Test Loop</h2>
-</section>
-
 <section data-watermark="true" data-background="assets/talk_background.png">
+    <p style="margin: 0px;">&nbsp;</p>
     <div class="r-stack">
         <img src="assets/timeline_impossible_quiz.png" alt="Timeline Impossible Quiz" width="900" height="1000">
     </div>
     <div class="r-stretch">
     </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <h2 style="padding: 10px; margin: 0px;">Escaping the Prison</h2>
+    <div class="r-stack">
+        <iframe data-src="http://localhost/escaping_the_prison.html" width="750" height="519"></iframe>
+    </div>
+    <div class="r-stretch">
+    </div>
+</section>
+
+<section data-background="assets/BBCp.gif" data-background-opacity="0.5">
+    <h2>Reduce Your Test Loop</h2>
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png">
@@ -143,6 +167,24 @@
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png">
+    <h2>Bloons</h2>
+    <div class="r-stack">
+        <iframe data-src="http://localhost/assets/bloonstd_dec_v3/index.html" width="700" height="525"></iframe>
+    </div>
+    <div class="r-stretch">
+    </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <h2>Bloons</h2>
+    <div class="r-stack">
+        <iframe data-src="http://localhost/AS2Sound_Test.html" width="700" height="525"></iframe>
+    </div>
+    <div class="r-stretch">
+    </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png">
     
     <div class="r-vstack">
         <h2 style="padding: 10px; margin: 0px;">Better Questions</h2>
@@ -153,26 +195,11 @@
     </div>
 </section>
 
-<section data-watermark="true" data-background="assets/talk_background.png">
-    <h2>Bloons</h2>
-    <div class="r-stack">
-        <iframe data-src="http://localhost/assets/bloonstd_dec_v3/index.html" width="700" height="525"></iframe>
-    </div>
-    <div class="r-stretch">
-    </div>
-</section>
-<section data-watermark="true" data-background="assets/talk_background.png">
-    <h2>Bloons</h2>
-    <div class="r-stack">
-        <iframe data-src="http://localhost/AS2Sound_Test.html" width="700" height="525"></iframe>
-    </div>
-    <div class="r-stretch">
-    </div>
-</section>
-
+<!--
 <section data-background="assets/wonderputt_start_crop.png" data-background-opacity="0.5">
     <h2>Optimisation</h2>
 </section>
+
 
 <section data-watermark="true" data-background="assets/talk_background.png">
     <h2 style="margin: 0px;">Wonderputt</h2>
@@ -188,7 +215,7 @@
     <div class="r-vstack">
             <p class="fragment fade-in">MouseEvent / KeyBoardEvent</p>
             <p class="fragment fade-in" data-autoslide="50">↓</p>
-            <p class="fragment fade-in" data-autoslide="0">event.updateAfterEvent = true</p>
+            <p class="fragment fade-in" data-autoslide="0">event.updateAfterEvent()</p>
             <p class="fragment fade-in" data-autoslide="50">↓</p>
             <p class="fragment fade-in" data-autoslide="0">render()</p>
     </div>
@@ -201,13 +228,13 @@
     <div class="r-vstack">
             <p>MouseEvent / KeyBoardEvent</p>
             <p>↓</p>
-            <p>event.updateAfterEvent = true</p>
+            <p>event.updateAfterEvent()</p>
             <p data-autoslide="50">↓</p>
             <p>renderFlag = true</p>
     </div>
     <div class="r-stretch">
     </div>
-</section>
+</section>-->
 <!--////////////////////////// BUGS //////////////////////////-->
 <!--//
 <section data-background="assets/Bugs-life6.webp" data-background-opacity="0.5">
@@ -228,7 +255,7 @@
 <section data-watermark="true" data-background="assets/talk_background.png">
     <h2 style="padding: 10px; margin: 0px;">Final Thoughts</h2>
     <ul class="bulletstyle">
-        <li style="list-style-type: '&#128077';" class="fragment fade-in">Use Strong types</li>
+        <li style="list-style-type: '&#128077';" class="fragment fade-in">Use strong types</li>
         <li style="list-style-type: '&#128076';" class="fragment fade-in">Have (some) automated tests</li>
         <li style="list-style-type: '&#129305';" class="fragment fade-in">Reduce your test loop</li>
         <li style="list-style-type: '&#129304';" class="fragment fade-in">Ask better questions</li>
